@@ -1,2 +1,2 @@
 # Meu portfolio/currículo em bootstrap
-## https://estevaolocks.github.io/pertfoliobootstrap
+## https://estevaolocks.github.io/portfoliobootstrap
