@@ -6,7 +6,7 @@ section {
 }
 
 .conj-1 {
-    background-color: burlywood;
+    background-color: rgb(73, 146, 118);
     border-radius: 4rem;
 }
 
@@ -66,7 +66,7 @@ section {
 }
 
 .cor-fundo-2 {
-    background-color: burlywood;
+    background-color: rgb(73, 146, 118);
 }
 
 .img-conj-2 {
@@ -231,3 +231,21 @@ section {
     position: relative;
 }
 /*--------------------------*/
+
+.img-modal {
+    width: 100%;
+}
+
+.link-reset {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link-reset:hover {
+    color: rgb(46, 46, 46);
+    cursor: pointer;
+}
+
+.name-nav {
+    color: rgb(46, 90, 73);
+}

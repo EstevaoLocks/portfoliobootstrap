@@ -14,7 +14,7 @@
         <header>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="home">Estevão Oliveira Locks</a>
+                    <a class="navbar-brand name-nav" href="home">Estevão Oliveira Locks</a>
                     <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -185,7 +185,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">O Guia do Guia</h5>
                                 <p class="card-text">O Guia do Guia é um site criado por mim que apresenta pontos do livro "O Guia do Mochileiro das Galáxias" (de Douglas Adams). Este foi o primeiro site que produzi.</p>
-                                <a href="https://estevaolocks.github.io/meuprimeirosite" class="btn btn-primary">Visite o site!</a>
+                                <a href="https://estevaolocks.github.io/meuprimeirosite" class="btn btn-light">Visite o site!</a>
                             </div>
                         </div>
                     </div>
@@ -196,7 +196,28 @@
                             <div class="card-body">
                                 <h5 class="card-title">Psicopato</h5>
                                 <p class="card-text">Arte feita em vetor do personagem "Psicopato" (de: As Crônicas de Wesley). Um dos desenho mais elaborados que fiz em vetor até então.</p>
-                                <a href="#" class="btn btn-primary">Veja!</a>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    Veja!
+                                </button>
+                                
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">Psicopato</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-modal" src="img/psicopato-completo.png" alt="">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -209,7 +230,28 @@
                             <div class="card-body">
                                 <h5 class="card-title">"Xuitter"</h5>
                                 <p class="card-text">Cópia da página inicial do Twitter em vetor feita no Adobe Illustrator.</p>
-                                <a href="#" class="btn btn-primary">Veja!</a>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modalxuitter">
+                                    Veja!
+                                </button>
+                                
+                                <!-- Modal -->
+                                <div class="modal fade" id="modalxuitter" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel">"Xuitter"</h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img class="img-modal" src="img/xuitter.PNG" alt="">
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -220,7 +262,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Clone Google Page</h5>
                                 <p class="card-text">Clone da página inicial do google usando display flex como base.</p>
-                                <a href="https://estevaolocks.github.io/clone-googlepage" class="btn btn-primary">Veja!</a>
+                                <a href="https://estevaolocks.github.io/clone-googlepage" class="btn btn-light">Veja!</a>
                             </div>
                         </div>
                     </div>
@@ -275,13 +317,13 @@
         <footer>
             <div class="row row-footer border-top">
                 <div class="col-md-4 text-footer">© 2024 Estevão production</div>
-                <div class="col-md-4 logo-footer"><strong>Estevão Oliveira Locks</strong></div>
+                <div class="col-md-4 logo-footer"><a class="link-reset" href="#home"><strong>Estevão Oliveira Locks</strong></a></div>
                 <div class="col-md-4">
                     <ul class="links-footer">
-                        <li class="link-footer"><a href="#home">Home</a></li>
-                        <li class="link-footer"><a href="#competencias">O que eu faço?</a></li>
-                        <li class="link-footer"><a href="#contato">Entre em contato!</a></li>
-                        <li class="link-footer"><a href="#home">About</a></li>
+                        <li class="link-footer"><a class="link-reset" href="#home">Home</a></li>
+                        <li class="link-footer"><a class="link-reset" href="#competencias">O que eu faço?</a></li>
+                        <li class="link-footer"><a class="link-reset" href="#contato">Entre em contato!</a></li>
+                        <li class="link-footer"><a class="link-reset" href="#home">About</a></li>
                     </ul>
                 </div>
             </div>
