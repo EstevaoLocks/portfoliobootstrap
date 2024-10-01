@@ -1,3 +1,233 @@
-.espaco-cima {
-    margin-top: 15rem;
+@import '//codepen.io/chrisdothtml/pen/ojLzJK.css';
+
+section {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
 }
+
+.conj-1 {
+    background-color: burlywood;
+    border-radius: 4rem;
+}
+
+.container-conj-1 {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+}
+
+.conteudo-conj-1 {
+    padding: 3rem;
+}
+
+.img-conj-1 {
+    position: absolute;
+
+    left: 5rem;
+    width: 30%;
+
+    clip-path: circle();
+}
+
+.coluna-d {
+    padding: 0;
+
+    display: flex;
+    justify-content: start;
+}
+
+@media (max-width: 767px) {
+    .img-conj-1 {
+        top: -25%;
+        left: 35%;
+        width: 30%;
+    
+        border-radius: 4rem 4rem 4rem 4rem;
+    }
+
+    .coluna-d {
+        padding: 0;
+
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-conj-1 {
+        position: relative;
+    }
+}
+
+.div-1 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.cor-fundo-2 {
+    background-color: burlywood;
+}
+
+.img-conj-2 {
+    width: 100%;
+
+    border-radius: 2rem;
+}
+
+.container-img-conj-1 {
+    display: flex;
+    align-items: center;
+}
+
+.apresentacao {
+    text-align: justify;
+}
+
+.projetos {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.titulo-2 {
+    text-align: center;
+}
+
+.row-cards {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.area-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card-projeto {
+    width: 24rem;
+}
+
+.card-total-projeto {
+    border-radius: 2rem;
+}
+
+.row-footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.links-footer {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 0;
+}
+
+.link-footer {
+    margin: 0.75rem;
+}
+
+.logo-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-footer {
+    display: flex;
+    align-items: center;
+}
+
+/* -------- Btns ------- */
+
+.social-btns .btn,
+.social-btns .btn:before,
+.social-btns .btn .bi {
+    transition: all 0.35s;
+    transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.social-btns .btn:before {
+    top: 90%;
+    left: -110%;
+}
+.social-btns .btn.facebook:before {
+    background-color: #3b5998;
+}
+.social-btns .btn.facebook .bi {
+    color: #3b5998;
+}
+.social-btns .btn.twitter-x:before {
+    background-color: #3cf;
+}
+.social-btns .btn.twitter-x .bi {
+    color: #3cf;
+}
+.social-btns .btn.linkedin:before {
+    background-color: #dc4a38;
+}
+.social-btns .btn.linkedin .bi {
+    color: #dc4a38;
+}
+.social-btns .btn.github:before {
+    background-color: #5c056d;
+}
+.social-btns .btn.github .bi {
+    color: #5c056d;
+}
+.social-btns .btn.instagram:before {
+    background-color: #f26798;
+}
+.social-btns .btn.instagram .bi {
+    color: #f26798;
+}
+.social-btns .btn:focus:before,
+.social-btns .btn:hover:before {
+    top: -10%;
+    left: -10%;
+}
+.social-btns .btn:focus .bi,
+.social-btns .btn:hover .bi {
+    color: #fff;
+    transform: scale(1);
+}
+.social-btns {
+    height: 90px;
+    margin: auto;
+    font-size: 0;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.social-btns .btn {
+    display: inline-block;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 30px;
+    margin: 0 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 28%;
+    box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+    opacity: 0.99;
+}
+.social-btns .btn:before {
+    content: '';
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    transform: rotate(45deg);
+}
+.social-btns .btn .bi {
+    font-size: 38px;
+    vertical-align: middle;
+}
+.social-btns {
+    position: relative;
+}
+/*--------------------------*/
